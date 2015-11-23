@@ -19,6 +19,9 @@ set smartindent
 set cindent
 set wrap
 
+set backspace=2
+set backspace=indent,eol,start
+
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
 inoremap {{ {
